@@ -111,7 +111,7 @@ public class DocProcessor {
         int actualParamCount = method.getParameterCount();
 
         if (annotatedParamCount < actualParamCount) {
-            // TODO: Calculate the number of missing parameter descriptions
+            // Calculate the number of missing parameter descriptions
             numMissing = actualParamCount - annotatedParamCount;
         }
         return numMissing;
